@@ -29,7 +29,7 @@ This project was also not extraordinarely complicated, but not simple either by 
 6. Post-training analysis of model prediction distributions to further adjust true/false label thresholds.
 7. Macro F1 Score to account for infrequent labels and skewedness.
 
-0.71 Validation Score | 0.4 LB Score
+0.71 Validation Score | 0.418 LB Score
 
 # Possible Improvements
 The major discrepancy between my validation and submission (LB) score is a problem that remains unsolved. It is likely due to some significant differences between the test and training data. Other participants also reported similar drops, though most people were able to achieve scores of around 0.44 which I was not able to reach. From learning curve analysis, it is clear that overfitting is a significant issue here. Nevertheless, that does not directly explain such a major discrepancy between validation and final test scores as both of those should be affected by overfitting to similar levels. 
